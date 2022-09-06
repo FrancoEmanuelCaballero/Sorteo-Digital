@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background: url("../img/bg-uno.jpg");
+}
+
+.sorteo-uno {
+  padding: 100px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sorteo-uno-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #323741;
+  border-radius: 50px;
+  padding: 40px;
+  width: 400px;
+}
+
+.sorteo-uno h2 {
+  color: #fefdfe;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.sorteo-uno ul {
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+.sorteo-uno ul li {
+  text-align: center;
+  color: #fefdfe;
+  margin: 10px 0;
+  border-radius: 100px;
+  background: #272d36;
+  width: 300px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.sorteo-uno button {
+  background: #0071ff;
+  border: none;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 50px;
+  color: #fefdfe;
+  font-size: 1.6rem;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+}
+
+.sorteo-uno button:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.sorteo-dos {
+  padding: 100px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fefdfe;
+}
+
+.sorteo-dos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #323741;
+  border-radius: 50px;
+  padding: 25px;
+  width: 420px;
+}
+
+.sorteo-dos-container h2 {
+  color: #fefdfe;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.sorteo-dos ul {
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+.sorteo-dos ul li {
+  text-align: center;
+  color: #fefdfe;
+  margin: 10px 0;
+  border-radius: 100px;
+  background: #272d36;
+  width: 300px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.sorteo-dos-container .nombres input {
+  background: #272d36;
+  border: none;
+  padding: 12px;
+  margin: 15px 5px;
+  border-radius: 50px;
+  color: #fefdfe;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+}
+
+.sorteo-dos-container .botones input {
+  background: #0071ff;
+  border: none;
+  padding: 12px;
+  margin: 15px 5px;
+  border-radius: 50px;
+  color: #fefdfe;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+}
+
+.sorteo-dos-container .botones input:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.sorteo-dos-container .nombres input:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}

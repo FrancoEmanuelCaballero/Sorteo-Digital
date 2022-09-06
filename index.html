@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="css/styles.css">
+ <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ <title>Sorteo Digital</title>
+</head>
+
+<body>
+ <section class="sorteo-uno" id="container-sorteo">
+  <div class="sorteo-uno-container">
+   <h2>Sorteo Digital</h2>
+   <ul class="jugadors">
+    <li class="jugador">JavasScript</li>
+    <li class="jugador">PHP</li>
+    <li class="jugador">JAVA</li>
+    <li class="jugador">C++</li>
+    <li class="jugador">Python</li>
+    <li class="jugador">Ruby</li>
+    <li class="jugador">Go</li>
+    <li class="jugador">Visual Basic</li>
+    <li class="jugador">Rust</li>
+    <li class="jugador">Perl</li>
+   </ul>
+   <button id="ganador-btn">Obtener Ganador</button>
+  </div>
+ </section>
+
+ <section class="sorteo-dos" id="container-sorteo-dos">
+  <div class="sorteo-dos-container">
+   <h2>Sorteo Digital Dos</h2>
+   <ul id="lista-jugadores"></ul>
+   <div class="nombres">
+    <input id="sorteo-dos" type="text" placeholder="Nombre jugador" />
+   </div>
+   <div class="botones">
+    <input id="agregar-jugador" type="button" value="Agregar Jugador" />
+    <input id="ganador-btn-dos" type="button" value="Sortear Ganador" />
+   </div>
+   <p id="mensaje"></p>
+
+  </div>
+ </section>
+ <script type="module" src="js/index.js"></script>
+</body>
+
+</html>
